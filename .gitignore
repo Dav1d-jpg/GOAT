@@ -1,0 +1,16 @@
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+data/*.db
+.DS_Store
+
+# Logs (koennen API-Keys in Tracebacks enthalten)
+*.log
+
+# Lokaler Kill-Switch
+STOP_BOT.txt
+
+# Lokale Claude-Einstellungen (enthaelt u.a. Telegram-Token)
+.claude/settings.local.json
